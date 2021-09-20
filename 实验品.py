@@ -9,7 +9,8 @@ level = int(input())
 kwsum = 0
 scnum = []
 case_num = 0
-ifelsenum = 0
+ifelsenum = 0                  
+#记录if-else的数量
 if_elseifnum =0
 wordlist=[]
 ifstack = []         #以列表的方式实现栈，用来记录if-else的对应关系
